@@ -1,17 +1,17 @@
 {
-    "version": "1640.v0f9ec819e871",
+    "version": "1669.vb_86ff5210ccf",
     "description": "Plugin Modernizer Tool",
     "homepage": "https://github.com/jenkins-infra/plugin-modernizer-tool",
     "license": "MIT",
-    "url": "https://github.com/jenkins-infra/plugin-modernizer-tool/releases/download/1640.v0f9ec819e871/jenkins-plugin-modernizer-1640.v0f9ec819e871.jar",
-    "hash": "sha256:4f65d72b8354b5e4d5ee8c096ec02a147a3b77506ae8a74269e4a8061080c0be",
+    "url": "https://github.com/jenkins-infra/plugin-modernizer-tool/releases/download/1669.vb_86ff5210ccf/jenkins-plugin-modernizer-1669.vb_86ff5210ccf.jar",
+    "hash": "sha256:d11140ca882ccc4dc52aef7edf53d1d649979bcf1ef8adab30edf55ec9a17af4",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
             "java/openjdk"
         ]
     },
-    "pre_install": "\"@java -jar \"\"$dir\\jenkins-plugin-modernizer-1640.v0f9ec819e871.jar\"\" %*\" | out-file -en oem \"$dir\\plugin-modernizer.bat\"",
+    "pre_install": "\"@java -jar \"\"$dir\\jenkins-plugin-modernizer-1669.vb_86ff5210ccf.jar\"\" %*\" | out-file -en oem \"$dir\\plugin-modernizer.bat\"",
     "bin": "plugin-modernizer.bat",
     "checkver": {
         "url": "https://github.com/jenkins-infra/plugin-modernizer-tool/releases/latest",
