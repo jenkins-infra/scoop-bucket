@@ -1,5 +1,9 @@
 # Scoop Manifests
 
+This repository contains scoop buckets for the following tools
+
+- [plugin-modernizer-tool](https://github.com/jenkins-infra/plugin-modernizer-tool)
+
 ## How do I install these tools?
 
 1. Install [scoop](https://github.com/ScoopInstaller/Install).
